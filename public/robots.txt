@@ -1,0 +1,6 @@
+# Robots.txt for Miguel Mantari Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://lymian.xyz/sitemap.xml

@@ -1,0 +1,58 @@
+.contact {
+  background-color: var(--bg-card);
+}
+
+.contact-content {
+  max-width: 600px;
+}
+
+.contact-intro {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.25rem;
+  background-color: var(--bg-dark);
+  border: 1px solid var(--border-color);
+  transition: border-color var(--transition-fast);
+}
+
+.contact-item:hover {
+  border-color: var(--primary);
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary);
+}
+
+.contact-value {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.contact-cta {
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .contact-intro {
+    font-size: 1.125rem;
+  }
+}
