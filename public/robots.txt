@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://lymian.xyz/sitemap.xml
+Sitemap: https://www.lymian.xyz/sitemap.xml
